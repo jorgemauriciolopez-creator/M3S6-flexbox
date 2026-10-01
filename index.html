@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas de Montaña</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <a class="logo" href="#inicio">Rutas<span>MX</span></a>
+        <nav class="nav" aria-label="Navegación principal">
+            <a class="nav__link" href="#rutas">Rutas</a>
+            <a class="nav__link" href="#info">Nosotros</a>
+            <a class="nav__link" href="#inicio">Inicio</a>
+            <a class="nav__link" href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="contenido" tabindex="-1">
+        <section class="hero" id="inicio" aria-labelledby="titulo">
+            <img class="hero__img"
+                 src="portada.jpg"
+                 alt="">
+            <div class="hero__content">
+                <h1 class="hero__title" id="titulo">Descubre la montaña</h1>
+                <p class="hero__subtitle">Rutas guiadas para todos los niveles.</p>
+                <a class="btn" href="#rutas">Ver rutas</a>
+            </div>
+        </section>
+        <section class="cards" id="rutas">
+            <h2 class="section-title">Nuestras rutas</h2>
+
+            <div class="cards__list">
+
+                <article class="card">
+                    <img class="card__img" src="rio.jpg" alt="Agua azul entre montañas y paredes de roca">
+                    <div class="card__body">
+                        <h3 class="card__title">Cañón del Río</h3>
+                        <p class="card__text">Ruta de dificultad media junto al río, 8 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__img" src="pico.jpg" alt="Tienda de campaña frente a montañas cubiertas de nieve">
+                    <div class="card__body">
+                        <h3 class="card__title">Pico Nevado</h3>
+                        <p class="card__text">Ascenso de alta montaña, 14 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__img" src="bosque.jpg" alt="Bosque de pinos entre nubes de niebla">
+                    <div class="card__body">
+                        <h3 class="card__title">Bosque de Niebla</h3>
+                        <p class="card__text">Caminata familiar de baja dificultad, 4 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__img" src="mirador.jpg" alt="Formaciones de roca rojiza sobre un valle">
+                    <div class="card__body">
+                        <h3 class="card__title">Mirador del Valle</h3>
+                        <p class="card__text">Sendero corto con vista panorámica, 3 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__img" src="lago.jpg" alt="Persona en una canoa sobre un lago rodeado de bosque">
+                    <div class="card__body">
+                        <h3 class="card__title">Lago Escondido</h3>
+                        <p class="card__text">Ruta circular alrededor del lago, 10 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__img" src="cascada.jpg" alt="Persona frente a una cascada con un arcoíris">
+                    <div class="card__body">
+                        <h3 class="card__title">Cascada Azul</h3>
+                        <p class="card__text">Sendero húmedo hasta la cascada, 6 km.</p>
+                        <a class="card__link" href="#info">Información de las salidas</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="info" id="info">
+            <div class="info__media">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="info-desktop.jpg">
+                    <source media="(min-width: 768px)" srcset="info-tablet.jpg">
+                    <img class="info__img" src="info-movil.jpg" alt="Campamento en la nieve al pie de una cordillera">
+                </picture>
+
+            </div>
+            <div class="info__text">
+                <h2 class="section-title">Quiénes somos</h2>
+                <p>Somos un grupo de guías certificados con más de diez años recorriendo
+                   la sierra. Diseñamos cada ruta pensando en la seguridad y en el ritmo
+                   de cada grupo.</p>
+                <p>Todas nuestras salidas incluyen equipo básico, seguro y transporte
+                   desde el punto de reunión.</p>
+                <a class="btn" href="#contacto">Contacta al equipo</a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer" id="contacto">
+        <div class="footer__cols">
+            <div class="footer__col">
+                <h3>Rutas</h3>
+                <a href="#rutas">Principiante</a>
+                <a href="#rutas">Intermedio</a>
+                <a href="#rutas">Avanzado</a>
+            </div>
+            <div class="footer__col">
+                <h3>Empresa</h3>
+                <a href="#info">Nosotros</a>
+                <a href="#info">Guías</a>
+                <a href="#contacto">Trabaja con nosotros</a>
+            </div>
+            <div class="footer__col">
+                <h3>Contacto</h3>
+                <a href="mailto:correo@rutasmx.com">correo@rutasmx.com</a>
+                <a href="tel:+528100000000">+52 81 0000 0000</a>
+                <a href="https://www.openstreetmap.org/search?query=Monterrey%2C%20Nuevo%20Le%C3%B3n">Monterrey, N.L.</a>
+            </div>
+        </div>
+        <p class="footer__copy">&copy; 2026 RutasMX. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
